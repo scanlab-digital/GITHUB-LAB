@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- fuente de google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/scanlab.css">
+    <title>SCANLAB|DIGITAL-LAB</title>
+  </head>
+  <body>
+    <header id="header" class="header contenedor"> <!-- header -->
+      <figure class="logotipo"> <!-- logotipo -->
+        <img src="images/logob.png" width="186" alt="Logotipo">
+      </figure>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html"> Home</a>
+          </li>
+          <li>
+            <a href="#productos"> Destacados</a>
+          </li>
+          <li>
+            <a href="precios.html"> Precios</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="portada" class="portada"> <!-- portada -->
+      <div class="contenedor">
+        <h1 class="titulo">Laboratorio Dental</h1><!-- titulo -->
+        <h3 class="title-a">Tu laboratorio Dental</h3><!-- resumen -->
+        <button class="button">Conoce mas</button><!-- boton -->
+      </div>
+    </section>
+    <section id="productos" class="productos contenedor"> <!-- guitarras -->
+    <h2>Nuestros Productos</h2><!-- titulo -->
+      <article class="producto"><!-- producto 1 -->
+        <img class="right" src="images/imgP1.png" width="350" alt="Producto Destacado 1">
+        <div class="contenedor-producto-a">
+          <h3 class="title-b">Diente 1</h3>
+          <ol>
+            <li>Caracteristica1</li>
+            <li>Caracteristica2</li>
+            <li>Caracteristica3</li>
+          </ol>
+        </div>
+      </article>
+      <article class="producto"><!-- producto 2 -->
+        <img class="left" src="images/imgP2.png" width="350" alt="Producto Destacado 2">
+        <div class="contenedor-producto-b">
+          <h3 class="title-b">Diente 2</h3>
+          <ol>
+            <li>Caracteristica1</li>
+            <li>Caracteristica2</li>
+            <li>Caracteristica3</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+    <footer class="footer"><!-- Contacto-PieDePagina -->
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="images/logo.png" alt="Logo" width="30px">
+          <a href="tel:+5412345678"><strong>Telefono</strong> <span></span>12345678</a>
+          <a href="mailto:"> <strong>E-mail</strong> <span>contacto@scanlab.com</span> </a>
+        </div>
+        <form class="form">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre">
+            <label for="e-mail">E-mail</label>
+            <input type="email" required id="e-mail" name="email">
+            <div class="sexo">
+          </div>
+            <label for="mujer">
+              <input type="radio" required id="mujer" checked name="sexo" value="mujer"> Mujer
+            </label>
+            <label for="hombre">
+              <input type="radio" required id="hombre" name="sexo" value="hombre"> Hombre
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotizacion
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+            </label>
+          </div>
+          <div class="col2">
+            <label for="comentarios-b">Comentarios</label>
+            <textarea name="comentarios-b" required id="comentarios-b" rows="5" cols="30"></textarea>
+            <input class="button" type="submit" name="" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
